@@ -80,50 +80,6 @@
             </div>
         </div>
 
-        <!-- 提供状況（麺・丼） -->
-        <div>
-            <div class="section-title">🕒 メニュー別 提供状況</div>
-            <div class="card-row">
-                <div class="card orange">
-                    <div class="card-title">🍚 丼もの</div>
-                    <div class="card-time"><span id="don_time">0</span>分</div>
-                    <div class="card-wait" id="don_wait_text"><span id="don_people">0</span>人待ち</div>
-                    <img id="don_image" class="status-img" src="lv1.png" alt="">
-                </div>
-                <div class="card green">
-                    <div class="card-title">🍜 麺類</div>
-                    <div class="card-time"><span id="noodle_time">0</span>分</div>
-                    <div class="card-wait" id="noodle_wait_text"><span id="noodle_people">0</span>人待ち</div>
-                    <img id="noodle_image" class="status-img" src="lv1.png" alt="">
-                </div>
-            </div>
-        </div>
-        
-        <!-- 売り切れ情報 -->
-        <div>
-            <div class="section-title">❌ 売り切れ情報</div>
-            <div class="soldout-box" id="soldout_container"></div>
-        </div>
-        
-        <!-- 空席マップ -->
-        <div>
-            <div class="section-title">🪑 空席マップ (混雑度: <span id="congestion_percent">0</span>%)</div>
-            <p style="font-size:12px; color:#666; margin:0 0 10px 0;">※画像はピンチアウトで拡大できます</p>
-            <div class="map-box">
-                <div class="map-wrapper">
-                    <img src="image2.png" alt="マップ背景" class="map-image">
-                    <div id="t1" class="table"></div><div id="t2" class="table"></div><div id="t3" class="table"></div><div id="t4" class="table"></div><div id="t5" class="table"></div><div id="t6" class="table"></div><div id="t7" class="table"></div><div id="t8" class="table"></div><div id="t9" class="table"></div><div id="t10" class="table"></div><div id="t11" class="table"></div><div id="t12" class="table"></div><div id="t13" class="table"></div><div id="t14" class="table"></div><div id="t15" class="table"></div><div id="t16" class="table"></div><div id="t17" class="table"></div><div id="t18" class="table"></div><div id="t19" class="table"></div><div id="t20" class="table"></div><div id="t21" class="table"></div><div id="t22" class="table"></div><div id="t23" class="table"></div><div id="t24" class="table"></div><div id="t25" class="table"></div><div id="t26" class="table"></div><div id="t27" class="table"></div><div id="t28" class="table"></div><div id="t29" class="table"></div><div id="t30" class="table"></div><div id="t31" class="table"></div><div id="t32" class="table"></div><div id="t33" class="table"></div><div id="t34" class="table"></div><div id="t35" class="table"></div><div id="t36" class="table"></div><div id="t37" class="table"></div><div id="t38" class="table"></div><div id="t39" class="table"></div><div id="t40" class="table"></div><div id="t41" class="table"></div><div id="t42" class="table"></div><div id="t43" class="table"></div><div id="t44" class="table"></div>
-                </div>
-                <div class="legend-bar">
-                    <div class="legend-item"><div class="legend-color status-0"></div>空席</div>
-                    <div class="legend-item"><div class="legend-color status-1"></div>わずか</div>
-                    <div class="legend-item"><div class="legend-color status-2"></div>満席</div>
-                </div>
-            </div>
-        </div>
-        <div style="text-align:center; padding: 20px 0; color:#999; font-size:12px;">データは3秒ごとに自動更新されます</div>
-    </div>
-
 <script>
     function loadMobileData() {
         Promise.all([

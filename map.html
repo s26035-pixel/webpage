@@ -64,46 +64,7 @@
     </style>
 </head>
 <body>
-    <div class="header">高専品川 学生食堂ナビ</div>
-    <div class="container">
-        
-        <!-- ★追加：券売機の待ち状況パネル -->
-        <div>
-            <div class="section-title">🎫 券売機の混雑状況</div>
-            <div id="total_card" class="total-card level-1">
-                <div class="total-title">現在の券売機エリア</div>
-                <div id="total_status" class="total-status" style="color: #4caf50;">🟢 空いています</div>
-                <div class="total-info">
-                    <div>券売機待ち<br><span id="vending_people">0</span> 人</div>
-                    <div>購入まで<br>約 <span id="vending_time">0</span> 分</div>
-                </div>
-            </div>
-        </div>
 
-        <!-- 提供状況（麺・丼） -->
-        <div>
-            <div class="section-title">🕒 メニュー別 提供状況</div>
-            <div class="card-row">
-                <div class="card orange">
-                    <div class="card-title">🍚 丼もの</div>
-                    <div class="card-time"><span id="don_time">0</span>分</div>
-                    <div class="card-wait" id="don_wait_text"><span id="don_people">0</span>人待ち</div>
-                    <img id="don_image" class="status-img" src="lv1.png" alt="">
-                </div>
-                <div class="card green">
-                    <div class="card-title">🍜 麺類</div>
-                    <div class="card-time"><span id="noodle_time">0</span>分</div>
-                    <div class="card-wait" id="noodle_wait_text"><span id="noodle_people">0</span>人待ち</div>
-                    <img id="noodle_image" class="status-img" src="lv1.png" alt="">
-                </div>
-            </div>
-        </div>
-        
-        <!-- 売り切れ情報 -->
-        <div>
-            <div class="section-title">❌ 売り切れ情報</div>
-            <div class="soldout-box" id="soldout_container"></div>
-        </div>
         
         <!-- 空席マップ -->
         <div>
